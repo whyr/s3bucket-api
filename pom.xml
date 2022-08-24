@@ -6,11 +6,11 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.1</version>
+		<version>2.7.3</version>
 		<relativePath/>
 	</parent>
 
-	<groupId>com.whyr.s3bucket</groupId>
+	<groupId>com.whyr</groupId>
 	<artifactId>s3bucket</artifactId>
 	<version>1.0.0</version>
 	<name>S3 Bucket API</name>
