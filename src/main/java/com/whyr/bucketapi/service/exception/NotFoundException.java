@@ -1,4 +1,4 @@
-package com.triggle.bucketapi.service.exception;
+package com.whyr.bucketapi.service.exception;
 
 import org.springframework.http.HttpStatus;
 

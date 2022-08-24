@@ -1,4 +1,4 @@
-package com.triggle.bucketapi;
+package com.whyr.bucketapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

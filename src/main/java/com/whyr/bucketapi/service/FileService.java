@@ -1,4 +1,4 @@
-package com.triggle.bucketapi.service;
+package com.whyr.bucketapi.service;
 
 import org.springframework.web.multipart.MultipartFile;
 

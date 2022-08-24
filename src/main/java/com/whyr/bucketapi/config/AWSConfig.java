@@ -1,4 +1,4 @@
-package com.triggle.bucketapi.config;
+package com.whyr.bucketapi.config;
 
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;

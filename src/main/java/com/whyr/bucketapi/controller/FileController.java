@@ -1,7 +1,7 @@
-package com.triggle.bucketapi.controller;
+package com.whyr.bucketapi.controller;
 
-import com.triggle.bucketapi.service.FileService;
-import com.triggle.bucketapi.service.utils.ContentTypeUtils;
+import com.whyr.bucketapi.service.FileService;
+import com.whyr.bucketapi.service.utils.ContentTypeUtils;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

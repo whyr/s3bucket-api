@@ -1,4 +1,4 @@
-package com.triggle.bucketapi.service;
+package com.whyr.bucketapi.service;
 
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.model.AmazonS3Exception;
@@ -8,9 +8,9 @@ import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.PutObjectRequest;
 import com.amazonaws.services.s3.model.PutObjectResult;
 import com.amazonaws.services.s3.model.S3Object;
-import com.triggle.bucketapi.service.exception.BadRequestException;
-import com.triggle.bucketapi.service.exception.NotFoundException;
-import com.triggle.bucketapi.service.exception.ServiceException;
+import com.whyr.bucketapi.service.exception.BadRequestException;
+import com.whyr.bucketapi.service.exception.NotFoundException;
+import com.whyr.bucketapi.service.exception.ServiceException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

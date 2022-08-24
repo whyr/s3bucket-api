@@ -1,4 +1,4 @@
-package com.triggle.bucketapi.config;
+package com.whyr.bucketapi.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class Swagger2Config {
+public class OpenApiConfig {
 
     @Bean
     public OpenAPI customOpenAPI() {
@@ -22,7 +22,7 @@ public class Swagger2Config {
 
         return new Info()
                 .title("Aamazon S3 Bucket REST API")
-                .description("API for managing Triggle S3 Bucket")
+                .description("API for managing an S3 Bucket")
                 .version("1.0.0")
                 .contact(apiContact());
     }

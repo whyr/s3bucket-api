@@ -1,4 +1,4 @@
-package com.triggle.bucketapi.service.utils;
+package com.whyr.bucketapi.service.utils;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
